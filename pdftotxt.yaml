@@ -16,4 +16,4 @@ Resources:
         Variables:
           TARGET_BUCKET: tempsearch-content-store
       Layers:
-        - 'arn:aws:lambda:us-east-1:020510964414:layer:tika:1'
+        - 'arn:aws:lambda:us-east-1:020510964414:layer:pkg_resources_layer:2'
