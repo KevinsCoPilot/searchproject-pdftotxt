@@ -11,7 +11,7 @@ Resources:
       Description: ''
       MemorySize: 512
       Timeout: 900
-      Role: 'arn:aws:iam::020510964414:role/lambda_s3'
+      Role: 'arn:aws:iam::020510964414:role/service-role/PDFtoTXT-role-rkh5aptl'
       Environment:
         Variables:
           TARGET_BUCKET: tempsearch-content-store
